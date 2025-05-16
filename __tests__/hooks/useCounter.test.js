@@ -1,5 +1,5 @@
-import { renderHook, act } from '@testing-library/react-hooks';
 import useCounter from '@/hooks/useCounter';
+import { act, renderHook } from '@testing-library/react';
 
 describe('useCounter', () => {
   it('increments count', () => {
