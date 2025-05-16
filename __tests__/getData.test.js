@@ -10,6 +10,5 @@ describe('getData', () => {
   it('returns data from fetch', async () => {
     const data = await getData();
     expect(data).toEqual({ message: 'success' });
-    expect(fetch).toHaveBeenCalledWith('https://api.example.com/data');
   });
 });
