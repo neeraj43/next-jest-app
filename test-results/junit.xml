@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="4" failures="0" errors="0" time="2.564">
+  <testsuite name="getData" errors="0" failures="0" skipped="0" timestamp="2025-05-16T05:22:32" time="1.081" tests="1">
+    <testcase classname="getData returns data from fetch" name="getData returns data from fetch" time="0.006">
+    </testcase>
+  </testsuite>
+  <testsuite name="getUsers" errors="0" failures="0" skipped="0" timestamp="2025-05-16T05:22:32" time="1.083" tests="1">
+    <testcase classname="getUsers fetches users from API" name="getUsers fetches users from API" time="0.006">
+    </testcase>
+  </testsuite>
+  <testsuite name="/api/hello" errors="0" failures="0" skipped="0" timestamp="2025-05-16T05:22:32" time="1.147" tests="1">
+    <testcase classname="/api/hello returns a message" name="/api/hello returns a message" time="0.007">
+    </testcase>
+  </testsuite>
+  <testsuite name="useCounter" errors="0" failures="0" skipped="0" timestamp="2025-05-16T05:22:32" time="1.523" tests="1">
+    <testcase classname="useCounter increments count" name="useCounter increments count" time="0.019">
+    </testcase>
+  </testsuite>
+</testsuites>

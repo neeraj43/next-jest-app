@@ -21,6 +21,10 @@ const customJestConfig = {
     '!**/.next/**',
     '!jest.config.js'
   ],
+  reporters: [
+    'default',
+    [ 'jest-junit', { outputDirectory: './test-results', outputName: 'junit.xml' } ]
+  ],
   coverageReporters: ['text', 'lcov']
 };
 
